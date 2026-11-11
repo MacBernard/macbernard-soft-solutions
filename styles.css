@@ -112,8 +112,8 @@ h3{font-size:1.12rem;letter-spacing:-.01em}
 .mock-stat{display:flex;flex-direction:column;flex:1}
 .mock-stat b{font-family:var(--font-display);color:#EAF6FB;font-size:1.05rem}
 .mock-stat span{color:#5E768A;font-size:.62rem;text-transform:uppercase;letter-spacing:.1em}
-.mock-row{flex:1;min-height:0;border-radius:8px;background:#141F2C;display:flex;align-items:center;padding:0 16px}
-.mock-row i{display:block;height:9px;border-radius:5px;background:linear-gradient(90deg,rgba(0,224,255,.75),rgba(0,224,255,.18))}
+.mock-row{flex:1;min-height:0;border-radius:8px;background:#1B2A3A;display:flex;align-items:center;padding:0 16px}
+.mock-row i{display:block;height:12px;border-radius:6px;background:linear-gradient(90deg,#00E0FF,rgba(0,224,255,.25))}
 
 /* ---------- steps ---------- */
 .step-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-top:56px}
