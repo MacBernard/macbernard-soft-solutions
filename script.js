@@ -15,16 +15,5 @@
     if(e.target.tagName==='A'){links.classList.remove('open');toggle.classList.remove('open');}
   });
 
-  var io=new IntersectionObserver(function(entries){
-    entries.forEach(function(en){
-      if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target);}
-    });
-  },{threshold:0.12});
-  document.querySelectorAll('.section .wrap > *, .step, .service-card, .value-item, .machub-wrap > *').forEach(function(el,i){
-    el.classList.add('reveal');
-    el.style.transitionDelay=(Math.min(i%6,5)*60)+'ms';
-    io.observe(el);
-  });
-
   document.getElementById('year').textContent=new Date().getFullYear();
 })();
