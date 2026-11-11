@@ -99,7 +99,7 @@ h3{font-size:1.12rem;letter-spacing:-.01em}
 .machub-list li::after{content:"";position:absolute;left:4.5px;top:11.5px;width:8px;height:5px;border-left:2px solid var(--ink);border-bottom:2px solid var(--ink);transform:rotate(-45deg)}
 .machub-note{color:var(--light-muted);font-size:.92rem;margin-bottom:30px;max-width:520px}
 .machub-panel{display:flex;justify-content:center}
-.machub-mock{width:100%;max-width:460px;background:var(--ink);border-radius:16px;box-shadow:0 40px 80px rgba(10,25,35,.35);overflow:hidden;display:flex;flex-direction:column;aspect-ratio:16/10.5;border:1px solid #1E2C3A}
+.machub-mock{width:100%;max-width:460px;height:330px;background:var(--ink);border-radius:16px;box-shadow:0 40px 80px rgba(10,25,35,.35);overflow:hidden;display:flex;flex-direction:column;border:1px solid #1E2C3A}
 .mock-top{display:flex;gap:7px;padding:14px 16px;border-bottom:1px solid #1B2836}
 .mock-top span{width:10px;height:10px;border-radius:50%;background:#26374A}
 .mock-top span:first-child{background:var(--cyan)}
@@ -107,12 +107,12 @@ h3{font-size:1.12rem;letter-spacing:-.01em}
 .mock-side{width:52px;border-right:1px solid #1B2836;padding:16px 0;display:flex;flex-direction:column;gap:14px;align-items:center}
 .mock-side i{width:18px;height:18px;border-radius:5px;background:#223346}
 .mock-side i:first-child{background:var(--cyan)}
-.mock-main{flex:1;padding:20px;display:flex;flex-direction:column;gap:12px}
+.mock-main{flex:1;min-height:0;padding:20px;display:flex;flex-direction:column;gap:12px}
 .mock-stats{display:flex;gap:28px;padding-bottom:6px}
 .mock-stat{display:flex;flex-direction:column;flex:1}
 .mock-stat b{font-family:var(--font-display);color:#EAF6FB;font-size:1.05rem}
 .mock-stat span{color:#5E768A;font-size:.62rem;text-transform:uppercase;letter-spacing:.1em}
-.mock-row{flex:1;border-radius:8px;background:#141F2C;display:flex;align-items:center;padding:0 16px}
+.mock-row{flex:1;min-height:0;border-radius:8px;background:#141F2C;display:flex;align-items:center;padding:0 16px}
 .mock-row i{display:block;height:9px;border-radius:5px;background:linear-gradient(90deg,rgba(0,224,255,.75),rgba(0,224,255,.18))}
 
 /* ---------- steps ---------- */
